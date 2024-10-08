@@ -16,3 +16,5 @@
 
 Frontend : Next.js + React.js  
 Backend : Node.js + NGINX with Docker
+
+Git Ruleset Test
