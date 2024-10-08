@@ -7,7 +7,7 @@ COPY . .
 RUN npm run build
 
 # 두 번째 단계: 배포
-FROM nginx:stable-alpine
+FROM nginx:1.26
 COPY --from=build /app/build /usr/share/nginx/html
 RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx/ /etc/nginx/
