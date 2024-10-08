@@ -27,4 +27,4 @@ jobs:
             git pull
             /usr/local/bin/docker compose down --rmi local
             /usr/local/bin/docker compose build --no-cache
-            /usr/local/bin/docker compose up
+            /usr/local/bin/docker compose up -d
